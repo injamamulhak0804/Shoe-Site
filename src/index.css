@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 97, 97);
+}
+li{
+    list-style: none;
+}
+.btns{
+    padding: 10px 10px 10px;
+    margin-right: 60px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #323243;
+}
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
