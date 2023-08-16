@@ -8,6 +8,7 @@ import './index.css'
 // Import DataBase
 import product from './DB/db';
 import Card from "./components/Card"
+import Footer from "./Footer/Footer"
 
 function App() {
 
@@ -88,6 +89,7 @@ function App() {
         handleClick={handleClick}
       />
       <Products result={result} />
+      <Footer />
     </>
   )
 }
